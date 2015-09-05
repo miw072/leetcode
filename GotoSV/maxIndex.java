@@ -27,5 +27,7 @@ int maxIndexDistance(int A[]){
         }
         i--;
     }
+    Sys
     return maxDist;
 }
+

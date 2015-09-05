@@ -18,4 +18,5 @@ private int getHeight(TreeNode root){
 	if (Math.abs(leftHeight-rightHeight) > 1){
 		return -1;
 	}
+	return 1+Math.max(leftHeight, rightHeight);
 }
